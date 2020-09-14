@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/lightorange">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/lecture"
+    android:text="1"
+    android:layout_marginLeft="10dp"
+    android:textColor="@color/black"
+    android:textStyle="bold"
+    android:textSize="30sp">
+</TextView>
+
+
+        <TextView
+            android:id="@+id/subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/lecture"
+            android:layout_marginLeft="14dp"
+            android:text="Data Structure"
+            android:gravity=""
+            android:textColor="@color/orange"
+            android:textSize="30sp"
+            android:textStyle="bold"></TextView>
+
+
+
+
+        <ProgressBar
+        android:id="@+id/circularProgressbar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="300dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="-5dp"
+        android:layout_below="@+id/subject"
+        android:layout_marginLeft="-25dp"
+        android:indeterminate="false"
+        android:max="100"
+        android:paddingRight="140dp"
+        android:progress="0"
+        android:progressDrawable="@drawable/homeprogress"
+        android:secondaryProgress="100" />
+
+        <TextView
+        android:id="@+id/attend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/subject"
+        android:textColor="@color/black"
+        android:layout_marginLeft="110dp"
+        android:text="25"
+        android:textSize="35sp"
+        android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/slash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/subject"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@+id/attend"
+            android:text="/"
+            android:textSize="35sp"
+            android:textStyle="bold"></TextView>
+
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/subject"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@+id/slash"
+            android:text="30"
+            android:textSize="35sp"
+            android:textStyle="bold"></TextView>
+
+
+        <TextView
+            android:id="@+id/predict"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/attendance"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/attend"
+            android:text="Attend 2 More Lectures"
+            android:textColor="@color/black"
+            android:textSize="22sp"></TextView>
+
+        <TextView
+            android:id="@+id/attendance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/subject"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="32dp"
+            android:text="84.82"
+            android:textColor="@color/black"
+            android:textSize="25sp"></TextView>
+
+
+        <Button
+            android:id="@+id/present"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/subject"
+            android:layout_marginLeft="220dp"
+            android:background="@drawable/present"
+            android:text="P"
+            android:textColor="@color/black"
+            android:textSize="35sp"
+            android:textStyle="bold"></Button>
+
+
+        <Button
+            android:id="@+id/absent"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/present"
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/subject"
+            android:background="@drawable/shape"
+            android:text="A"
+            android:textColor="@color/black"
+            android:textSize="35sp"
+            android:textStyle="bold"></Button>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

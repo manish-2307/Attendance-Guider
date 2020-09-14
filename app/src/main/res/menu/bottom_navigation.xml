@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home"></item>
+
+    <item
+        android:id="@+id/bar"
+        android:icon="@drawable/ic_insert_chart_black_24dp"
+        android:title="Bar Chart"></item>
+
+    <item
+        android:id="@+id/predict"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Prediction"></item>
+
+</menu>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "558079169780",
+    "firebase_url": "https://attendance-guider.firebaseio.com",
+    "project_id": "attendance-guider",
+    "storage_bucket": "attendance-guider.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558079169780:android:728d667df179ff55bb7aa1",
+        "android_client_info": {
+          "package_name": "com.example.attendance_guider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "558079169780-885l1d59alpblk50sji67nvdban57pvq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2XVKqgTwiy13l4msgJLmBZmcdj5jrCy0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "558079169780-885l1d59alpblk50sji67nvdban57pvq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
